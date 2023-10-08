@@ -1,0 +1,22 @@
+@import '../../App/app.scss';
+
+.button {
+    button {
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        background-color: $main-color;
+        color: white;
+        font-size: 17px;
+    }
+
+    &-sm {
+    }
+
+    &-md {
+        button {
+            width: 130px;
+            height: 40px;
+        }
+    }
+}

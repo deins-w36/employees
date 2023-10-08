@@ -1,0 +1,46 @@
+@import '../App/app.scss';
+
+.header {
+    height: 60px;
+    background-color: $main-color;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    &__title {
+        font-size: 24px;
+        color: #fff;
+        @media (max-width: 500px) {
+            font-size: 18px;
+        }
+    }
+    &__nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+        color: #fff;
+        flex-wrap: wrap;
+        @media (max-width: 500px) {
+            font-size: 16px;
+        }
+        &__item {
+            cursor: pointer;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            &:hover,
+            &:visited {
+                color: white;
+            }
+        }
+    }
+}

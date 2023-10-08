@@ -1,0 +1,30 @@
+@import '../../App/app.scss';
+
+.input {
+    position: relative;
+    width: 100%;
+    input,
+    select {
+        width: 100%;
+        height: 40px;
+        outline: none;
+        border: 1px solid $border-color;
+        padding: 5px 15px;
+        color: black;
+        font-size: 17px;
+        border-radius: 8px;
+    }
+    label {
+        position: absolute;
+        top: -10px;
+        left: 10px;
+        z-index: 2;
+        background-color: #fff;
+        padding: 0px 5px;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+    select {
+        cursor: pointer;
+    }
+}

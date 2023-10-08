@@ -1,0 +1,16 @@
+$main-color: #386b65;
+$action-color: #fbec52;
+$border-color: #bfb9b9;
+$error-color: red;
+$success-color: #1fcf1f;
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.error {
+    margin: 50px auto;
+    font-size: 25px;
+    color: $error-color;
+}
